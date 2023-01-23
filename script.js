@@ -68,11 +68,36 @@ var contabancaria = 15.75 //float ou real
     }
 
 */
-
+/*
 let numero = 5
 
-if(numero > 8){    
+if(numero > 8){   
     document.write('tudo ok')
 } else { // else significa senao
     document.write('nada ok')
-}
+}*/
+
+//caixas de dialogo
+
+//caixa de mensagem
+//alert('Erro ao somar!!!')
+
+//caixa de questao
+/*let opcao = confirm("Deseja mesmo apagar esse registro?")
+
+if(opcao == true){
+    alert('Registro Apagado!!!')
+} else {
+    alert('Registro não Apagado!!!')
+}*/
+
+//caixa de inserção de texto
+//let nomeUsuario = prompt("Digite seu nome: ")
+//document.write(nomeUsuario)
+
+//concatenação
+// string + numerico
+document.write("<strong>Thiago" + " Andrade</strong><br>")
+
+// numerico + numerico
+document.write('<i class="numero">' + (6 + 7.5) + '</i>')
