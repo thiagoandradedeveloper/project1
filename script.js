@@ -71,13 +71,8 @@ var contabancaria = 15.75 //float ou real
 
 let numero = 5
 
-if(numero > 8){
-    
+if(numero > 8){    
     document.write('tudo ok')
-
 } else { // else significa senao
-
     document.write('nada ok')
-
 }
-
